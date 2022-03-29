@@ -1,0 +1,43 @@
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.li > ul {
+    display: none;
+
+}
+
+.li > ul.open {
+    display: block;
+}
+
+.fa-folder {
+    color: red;
+}
+
+.fa-file {
+    color: blue;
+}
+
+.fa {
+    margin-right: 0.8rem;
+}
+
+.text-orange {
+    color: #f06529;
+
+}
+.text-violet {
+    color: #8993be;
+
+}
+
+.bg-orange, .btn-orange {
+    background-color: #f06529;
+}
+.bg-violet, .btn-violet {
+    background-color: #8993be;
+}
